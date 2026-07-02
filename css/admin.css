@@ -1,0 +1,28 @@
+body {
+    font-family: 'Kanit','Prompt', 'Inter', sans-serif;
+    background-color: #f8fafc;
+    overflow-x: hidden;
+}
+/* Hide scrollbar for Webkit, Firefox, IE/Edge */
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+input[type="number"] {
+    text-align: center !important;
+}
+
+.bgblue {
+    background-color: #81a7da !important;
+    color: #000000 !important;
+}
+
+.bgorange {
+    background-color: #f3bd7f !important;
+    color: #000000 !important;
+}
